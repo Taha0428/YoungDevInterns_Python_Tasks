@@ -1,0 +1,81 @@
+import streamlit as st
+
+st.title("Digital Resume")
+
+st.image("My Image.jpg", width=150) 
+
+st.header("Taha Javed")
+st.subheader("Contact Information")
+st.write("Email: tahaj0336@gmail.com")
+st.write("Phone: 0304-6144547")
+st.write("LinkedIn: [Taha's LinkedIn](https://www.linkedin.com/in/taha-javed-025a03287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)")
+st.write("GitHub: [Taha's GitHub](https://github.com/Taha0428/YoungDevInterns_Python_Tasks)")
+
+
+st.header("Professional Summary")
+st.write("""
+I am a dedicated and analytical bioinformatics student pursuing a BS in Bioinformatics. I possess a strong foundation in computational biology, data analysis, and molecular biology techniques. With a passion for merging biology and technology, I have developed skills in Python, R, and various bioinformatics tools to analyze complex biological data. I am eager to apply my knowledge and skills to real-world challenges in genomics, proteomics, and systems biology, aiming to contribute to advancements in biomedical research and healthcare.
+""")
+
+
+st.header("Education")
+st.write("**Bachelor of Science in Bioinformatics**")
+st.write("Quaid-i-Azam University, 2022 - 2024 (cont.)")
+st.write("GPA: 3.8/4.0")
+
+st.write("**FSc pre-engineering**")
+st.write("Apex Group Of Colleges, 2020 - 2022 ")
+st.write("Percentage: 90.82%")
+
+st.write("**Matric in Biology**")
+st.write("Sir Syed Pilot High School, 2016 - 2020 ")
+st.write("Percentage: 88.87%")
+
+
+st.header("Work Experience")
+st.write("**Project Manager** at Geo Falcon")
+st.write("Wazirabad, Pakistan | June 2022 - Present")
+st.write("""
+- Responsible for managing Damascus products.
+- Collaborated with cross-functional teams to define, design, and ship new products.
+- Led a team of Freshers of dropshipping.
+""")
+
+st.write("**Infectious Diseases AMR research Intern** at Genomac Institute INC")
+st.write("Nigeria, Africa | June 2024 - August 2024")
+st.write("""
+- Assisted in using Bioinformatics tools and techniques.
+- Implemented automated testing procedures, improving genome reliability.
+""")
+
+
+st.header("Skills")
+st.write("""
+- **Programming Languages:** Python, C++
+- **MS Office:** Excel, Word, PowerPoint
+- **Tools & Technologies:** NCBI, Geneious, Pubmed, STRING etc.
+- **Soft Skills:** Problem-solving, Team collaboration, Communication, Time management
+""")
+
+
+st.header("Certifications")
+st.write("**Certified C++ programmer** - Digital Empowerment Network")
+st.write("**Certified AMR researcher** - Genomac Institute INC")
+
+
+st.header("Languages")
+st.write("**Urdu:** Fluent")
+st.write("**English:** Good")
+
+
+st.header("Hobbies")
+st.write("In my free time, I enjoy Travelling, Bike Riding, Singing, and contributing to open-source projects.")
+
+
+st.header("Projects")
+st.write("**Historical Weather Forecasting system**")
+st.write("""
+Developed a fully functional Weather Forecasting System using C++, by creating an API key and using the OpenWeatherMap API to fetch weather data. 
+""")
+
+st.write("### Thank you for viewing my resume!")
